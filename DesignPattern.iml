@@ -2,7 +2,11 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="App" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/app.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -22,5 +26,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.4" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:4.2" level="project" />
   </component>
 </module>
